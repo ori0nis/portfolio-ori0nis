@@ -1,5 +1,11 @@
+import { ProjectList } from "./components/ProjectList";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <ProjectList />
+    </>
+  );
 }
 
 export default App;
