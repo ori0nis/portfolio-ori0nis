@@ -10,10 +10,10 @@ export const ProjectList = () => {
   }, []);
 
   return (
-    <ul className="flex flex-col gap-5 max-w-xl m-auto">
+    <div className="flex flex-col gap-5 max-w-xl m-auto">
       {projects.map((project) => (
         <Project key={project.id} project={project} />
       ))}
-    </ul>
+    </div>
   );
 };
