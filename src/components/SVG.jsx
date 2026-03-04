@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const SVG = ({ iconName, shadowColor, className, withShadow = true, isTechIcon = true, width = 35, height = 35 }) => {
+export const SVG = ({ iconName, shadowColor, className, withShadow = true, isTechIcon = true, width = 28, height = 28 }) => {
   const [hovered, setHovered] = useState(false);
 
   const techIconStyle = "rounded-md p-1 bg-zinc-800 text-zinc-100 transition-all duration-200 hover:scale-110";

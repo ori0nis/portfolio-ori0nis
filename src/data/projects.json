@@ -18,7 +18,7 @@
   {
     "id": 2,
     "name": "MyPlants.io - Frontend",
-    "description": "React + Typescript frontend for MyPlants.io, my fullstack Year 2 Fullstack Master's final project",
+    "description": "React + Typescript frontend for MyPlants.io, my Year 2 Fullstack Master's final project",
     "tech_stack": ["React", "Typescript", "Vite", "TailwindCSS", "Vercel"],
     "github_repo": "https://github.com/ori0nis/proyecto-fullstack-frontend",
     "deployment_link": "https://myplantsdotio.vercel.app/"
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "MyPlants.io - Backend",
-    "description": "Express + Node.js + Typescript backend for MyPlants.io, my fullstack Year 2 Fullstack Master's final project",
+    "description": "Express + Node.js + Typescript backend for MyPlants.io, my Year 2 Fullstack Master's final project",
     "tech_stack": ["Express", "Node.js", "Typescript", "MongoDB", "Supabase", "Render"],
     "github_repo": "https://github.com/ori0nis/proyecto-fullstack-backend",
     "deployment_link": "https://myplants-backend.onrender.com/"

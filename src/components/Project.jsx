@@ -10,7 +10,7 @@ export const Project = ({ project }) => {
     <div className="card-wrapper hover:scale-101 transition duration-150">
       <div className="border border-zinc-700 bg-zinc-800 rounded-xl p-3 flex flex-col gap-1 card-content">
         {/* Info */}
-        <h2 className="text-zinc-50 font-[Switzer] font-bold text-3xl flex justify-between items-center gap-3">
+        <h2 className="text-zinc-200 font-[Switzer] font-semibold text-xl flex justify-between items-center gap-3">
           {project.name}
           <div className="inline-flex gap-1 self-start">
             {project.tech_stack.map((tech) => (
@@ -26,8 +26,8 @@ export const Project = ({ project }) => {
             isTechIcon={false}
             withShadow={false}
             className={`m-auto mt-4 cursor-pointer ${showDescription ? "rotate-180" : ""}`}
-            width={18}
-            height={18}
+            width={12}
+            height={12}
           />
         </button>
 
@@ -41,12 +41,12 @@ export const Project = ({ project }) => {
             <div className="flex flex-row gap-1">
               {project.github_repo && (
                 <a href={project.github_repo} target="_blank">
-                  <SVG iconName={"github"} />
+                  <SVG iconName={"github"} width={32} height={32}/>
                 </a>
               )}
               {project.deployment_link && (
                 <a href={project.deployment_link} target="_blank">
-                  <SVG iconName={"link"} />
+                  <SVG iconName={"link"} width={32} height={32} />
                 </a>
               )}
             </div>

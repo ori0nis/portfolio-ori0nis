@@ -10,10 +10,12 @@ export const ProjectList = () => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-5 max-w-xl m-auto">
-      {projects.map((project) => (
-        <Project key={project.id} project={project} />
-      ))}
-    </div>
+    <section className="min-h-screen flex items-center">
+      <div className="flex flex-col gap-5 max-w-md m-auto">
+        {projects.map((project) => (
+          <Project key={project.id} project={project} />
+        ))}
+      </div>
+    </section>
   );
 };
