@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+/*? Fonts */
+@font-face {
+  font-family: "Switzer";
+  src: url("./assets/fonts/Switzer-Extralight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("./assets/fonts/Switzer-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("./assets/fonts/Switzer-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("./assets/fonts/Switzer-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("./assets/fonts/Switzer-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("./assets/fonts/Switzer-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*? Container border animation classes */
+@keyframes border-spin {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@theme {
+  --animate-border-spin: border-spin 1.5s linear infinite;
+}
+
+@layer utilities {
+  /* Border */
+  .card-wrapper {
+    @apply relative rounded-2xl overflow-hidden;
+  }
+
+  /* Gradient */
+  .card-wrapper::before {
+    animation-play-state: paused; /* Paused with 0 opacity until hover happens */
+    opacity: 0;
+    content: "";
+    position: absolute;
+    height: 350%;
+    width: 350%;
+    left: -126%;
+    top: -128%;
+
+    background: conic-gradient(red, orange, yellow, green, blue, indigo, violet, red, transparent 180deg);
+
+    animation: var(--animate-border-spin);
+  }
+
+  /* Effect only applies on hover */
+  .card-wrapper:hover::before {
+    animation-play-state: running;
+    opacity: 1;
+  }
+
+  /* Body */
+  .card-content {
+    @apply relative w-[calc(100%-2px)] h-[calc(100%-2px)] top-px left-px  rounded-2xl;
+  }
+}
