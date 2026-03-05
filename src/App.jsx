@@ -14,13 +14,13 @@ function App() {
         onGoToProjects={() => {
           projectsRef.current?.scrollIntoView({
             behavior: "smooth",
-            block: "center",
+            block: "start",
           });
         }}
       />
 
       {/* Project List */}
-      <section ref={projectsRef} className="px-4">
+      <section ref={projectsRef} className="px-4 py-10">
         <ProjectList
           onGoToContact={() => {
             contactRef.current?.scrollIntoView({
@@ -32,7 +32,7 @@ function App() {
       </section>
 
       {/* Contact form */}
-      <section ref={contactRef}>
+      <section ref={contactRef} className="py-15">
         <ContactForm />
       </section>
     </div>
