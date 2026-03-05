@@ -10,9 +10,10 @@ export const Project = ({ project }) => {
     <div className="card-wrapper hover:scale-101 transition duration-150">
       <div className="border border-zinc-700 bg-zinc-800 rounded-xl p-3 flex flex-col gap-1 card-content">
         {/* Info */}
-        <h2 className="text-zinc-200 font-[Switzer] font-semibold text-xl flex justify-between items-center gap-3">
+        <h2 className="text-zinc-200 font-[Switzer] font-semibold text-xl flex flex-col min-[480px]:flex-row min-[480px]:justify-between min-[480px]:items-center gap-3">
           {project.name}
-          <div className="inline-flex gap-1 self-start">
+
+          <div className="flex gap-1">
             {project.tech_stack.map((tech) => (
               <SVG key={tech} iconName={tech.toLowerCase()} shadowColor={colorHelper(tech)} />
             ))}
@@ -41,7 +42,7 @@ export const Project = ({ project }) => {
             <div className="flex flex-row gap-1">
               {project.github_repo && (
                 <a href={project.github_repo} target="_blank">
-                  <SVG iconName={"github"} width={32} height={32}/>
+                  <SVG iconName={"github"} width={32} height={32} />
                 </a>
               )}
               {project.deployment_link && (

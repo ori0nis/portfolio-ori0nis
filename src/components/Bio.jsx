@@ -4,6 +4,7 @@ export const Bio = ({ onGoToProjects }) => {
   return (
     <section className="min-h-screen flex flex-col justify-center max-w-xl m-auto px-4">
       <div className="bg-black/40 rounded-lg p-4 flex flex-col gap-3">
+        {/* Windows icons */}
         <div className="flex flex-row self-end">
           <SVG iconName={"icon-window-minimize"} withShadow={false} isTechIcon={false} width={24} height={24} />
           <SVG
@@ -17,7 +18,8 @@ export const Bio = ({ onGoToProjects }) => {
           <SVG iconName={"icon-window-close"} withShadow={false} isTechIcon={false} width={22} height={22} />
         </div>
 
-        <p className="text-green-400 font-mono text-sm">PS{">"} whoami</p>
+        {/* Info */}
+        <p className="text-green-400 font-mono text-sm">PS{">"} who-am-I</p>
         <h2 className="font-mono font-medium text-3xl">Oihane García de Cáceres López</h2>
         <p className="font-mono text-gray-400">Fullstack Web Developer</p>
 
@@ -45,6 +47,7 @@ export const Bio = ({ onGoToProjects }) => {
           </a>
         </div>
 
+        {/* Jump to project list */}
         <button
           onClick={onGoToProjects}
           className="mt-3 text-sm w-fit m-auto font-mono text-green-400 hover:text-green-700 cursor-pointer transition"

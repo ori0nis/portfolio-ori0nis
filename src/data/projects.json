@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "Todo List API",
-    "description": "Small API I created as my first exploration of a Python + Pydantic + FastAPI stack",
+    "description": "Small API I created as my first exploration of a Python + Pydantic + FastAPI stack.",
     "tech_stack": ["Python", "Pydantic", "FastAPI", "Uvicorn"],
     "github_repo": "https://github.com/ori0nis/todo-fastapi",
     "deployment_link": null
@@ -10,7 +10,7 @@
   {
     "id": 1,
     "name": "Soundbird Music Player",
-    "description": "Web music player inspired in the Apple Music UI",
+    "description": "Simple web music player inspired in the Apple Music UI. Made for a CSS class project.",
     "tech_stack": ["React", "Javascript", "Vite", "TailwindCSS", "Vercel"],
     "github_repo": "https://github.com/ori0nis/soundbird-music-player",
     "deployment_link": "https://soundbird-music-player.vercel.app/"
@@ -18,7 +18,7 @@
   {
     "id": 2,
     "name": "MyPlants.io - Frontend",
-    "description": "React + Typescript frontend for MyPlants.io, my Year 2 Fullstack Master's final project",
+    "description": "React + Typescript frontend for MyPlants.io, my Year 2 Fullstack Master's final project.",
     "tech_stack": ["React", "Typescript", "Vite", "TailwindCSS", "Vercel"],
     "github_repo": "https://github.com/ori0nis/proyecto-fullstack-frontend",
     "deployment_link": "https://myplantsdotio.vercel.app/"
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "MyPlants.io - Backend",
-    "description": "Express + Node.js + Typescript backend for MyPlants.io, my Year 2 Fullstack Master's final project",
+    "description": "Express + Node.js + Typescript backend for MyPlants.io, my Year 2 Fullstack Master's final project.",
     "tech_stack": ["Express", "Node.js", "Typescript", "MongoDB", "Supabase", "Render"],
     "github_repo": "https://github.com/ori0nis/proyecto-fullstack-backend",
     "deployment_link": "https://myplants-backend.onrender.com/"
@@ -34,7 +34,7 @@
   {
     "id": 4,
     "name": "Byblos - Book Search App",
-    "description": "React + Typescript book search app based on the OpenLibrary API",
+    "description": "React + Typescript book search app based on the OpenLibrary API.",
     "tech_stack": ["React", "Typescript", "Vite", "TailwindCSS", "Vercel"],
     "github_repo": "https://github.com/ori0nis/byblos-app",
     "deployment_link": "https://byblos-books.vercel.app/"
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "name": "Employee List",
-    "description": "Simple web app that connects a MySQL database with an Angular frontend via Springboot, JPA and Hibernate",
+    "description": "Simple web app that connects a MySQL database with an Angular frontend via Springboot, JPA and Hibernate.",
     "tech_stack": ["Java", "Springboot", "Hibernate", "SQL", "Angular", "Typescript"],
     "github_repo": "https://github.com/ori0nis/personas-fullstack-spring-angular",
     "deployment_link": null
@@ -50,7 +50,7 @@
   {
     "id": 6,
     "name": "Training Dashboard",
-    "description": "Fitness tracker-style Java app based on Garmin's SDK. This was my Year 1 Fullstack Master's final project",
+    "description": "Fitness tracker-style Java app based on Garmin's SDK. This was my Year 1 Fullstack Master's final project.",
     "tech_stack": ["Java", "Javascript", "Vite"],
     "github_repo": "https://github.com/ori0nis/training-dashboard",
     "deployment_link": null
