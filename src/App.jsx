@@ -20,7 +20,7 @@ function App() {
       />
 
       {/* Project List */}
-      <section ref={projectsRef} className="px-4 py-10">
+      <section ref={projectsRef} className="px-4 py-10 min-[480px]:py-0">
         <ProjectList
           onGoToContact={() => {
             contactRef.current?.scrollIntoView({
