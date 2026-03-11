@@ -1,4 +1,5 @@
 import { useState } from "react";
+import sprite from "../../src/assets/spritesheet.svg";
 
 export const SVG = ({ iconName, shadowColor, className, withShadow = true, isTechIcon = true, width = 28, height = 28 }) => {
   const [hovered, setHovered] = useState(false);
@@ -22,7 +23,7 @@ export const SVG = ({ iconName, shadowColor, className, withShadow = true, isTec
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      <use href={`/spritesheet.svg#${iconName}`} />
+      <use href={`${sprite}#${iconName}`} />
     </svg>
   );
 };
