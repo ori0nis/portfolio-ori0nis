@@ -48,6 +48,18 @@
         <circle cx="24" cy="24" r="4" fill="#80deea"></circle>
     </symbol>
 
+    <!-- Next.js -->
+    <symbol id="next.js" viewBox="0 0 180 180">
+        <path
+            fill="currentColor"
+            d="M149.51 157.52L69.14 54H54v71.97h12.11V69.38l73.89 95.46c3.33-2.23 6.51-4.68 9.51-7.32z"
+        />
+        <path
+            fill="currentColor"
+            d="M115 54h12v72h-12z"
+        />
+    </symbol>
+
     <!-- Node.js -->
     <symbol id="node.js" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
         stroke-linecap="round" stroke-linejoin="round">
