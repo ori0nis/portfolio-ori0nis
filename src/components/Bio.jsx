@@ -25,8 +25,7 @@ export const Bio = ({ onGoToProjects }) => {
 
         <p className="text-green-400 font-mono text-sm">PS{">"} skills</p>
         <p className="font-mono text-gray-400 font-light text-sm">
-          I'm specialized in Express, React and Typescript, but I can also work with Java, Python, and frameworks like
-          Angular or Next.js.
+          I'm specialized in TypeScript, React Native, Next.js, Node.js, Express, MongoDB and PostgreSQL, but I can also work with Java, Python, Angular and more.
         </p>
 
         <p className="text-green-400 font-mono text-sm">PS{">"} profiles</p>
